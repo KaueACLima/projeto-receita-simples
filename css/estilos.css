@@ -1,0 +1,139 @@
+body {
+    font-family: 'Outfit-Light';
+    background-color: #f3e5d8;
+    font-size: 16px;
+}
+
+.receita {
+    background-color: #fff;
+    width: 50%;
+    height: 1650px;
+    margin: 10% auto 10% auto;
+    border-radius: 30px;
+}
+
+.receita .imagem-omelete {
+    width: 676px;
+    height: 300px;
+    padding: 33px;
+    border-radius: 40px;
+}
+
+.titulo {
+    color: hsl(30, 10%, 34%);
+    width: 56%;
+    margin-left: 5%;
+}
+
+.subtitulo {
+    color: hsl(14, 45%, 36%);
+    margin-left: 5%;
+}
+
+.texto {
+    padding: 33px;
+    margin: 0% 0% -5% 0%;
+}
+
+.texto2 {
+    font-family: 'Outfit-Light';
+    padding: 25px;
+    margin: -2% 0% 0% 0%;
+}
+
+.modo-de-praparo {
+    color: hsl(332, 51%, 32%);
+    padding: 5%;
+    width: 33%;
+}
+
+.Lista-de-praparo {
+    background-color: #f3e5d854;
+    width: 90%;
+    height: 181px;
+    margin: 4% 0% 4% 4%;
+}
+
+.Lista-de-praparo li {
+    font-family: 'Outfit-Light';
+    width: 46%;
+    font-size: 13px;
+    padding-bottom: 3%;
+    list-style-position: inside;
+}
+
+.ingredientes {
+    font-family: 'Outfit-Light';
+    font-size: 13px;
+    margin: 3% 0% 0% 0%;
+    list-style-position: inside;
+}
+
+.ingredientes li {
+    font-family: 'Outfit-Light';
+    width: 64%;
+    font-size: 13px;
+    margin-left: 1%;
+    padding-bottom: 3%;
+    list-style-position: inside;
+}
+
+.linha {
+    width: 90%;
+    margin: 4% 5% 3% 5%;
+}
+
+.linha-calorias {
+    width: 90%;
+    margin: 4% 5% 3% 5%;
+}
+
+.instrucoes li {
+    font-family: 'Outfit-Light';
+    list-style-position: inside;
+    font-size: 14px;
+    margin: 3% 1% 2% 0%;
+}
+
+.instrucoes li strong {
+    margin-left: 2%;
+}
+
+.tipo-de-calorias {
+    color: hsl(30, 10%, 34%);
+}
+
+.tipo-de-calorias li {
+    list-style-type: none;
+}
+
+.tabela {
+    table-layout: fixed;
+    width: 80%;
+    margin: 1% auto;
+    padding-left: 15px;
+    border-collapse: collapse;
+}
+
+.tabela tr {
+    border-bottom: 1px solid;
+    border-color: hsl(30, 18%, 87%);
+    font-size: 14pt;
+    background-color: #fff;
+    color: hsl(24, 5%, 18%);
+}
+
+.primeirotd {
+    display: table;
+    float: left;
+    margin-right: 10px
+}
+
+.segundotd {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.tabela .gordura {
+    border-color: #fff;
+}
